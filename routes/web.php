@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//商家店铺接口
+Route::get('/shops','ApiController@shops');
+//店铺分类
+Route::get('/shop','ApiController@shop');
