@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('/shops','ApiController@shops');
 //店铺分类
 Route::get('/shop','ApiController@shop');
+//短信验证
+Route::get('/sms','SmsController@sendSms');
